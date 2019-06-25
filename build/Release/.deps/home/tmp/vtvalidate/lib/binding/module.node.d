@@ -1,0 +1,1 @@
+cmd_/home/tmp/vtvalidate/lib/binding/module.node := g++ -shared -pthread -rdynamic -m64 -Wl,-z,now  -Wl,-soname=module.node -o /home/tmp/vtvalidate/lib/binding/module.node -Wl,--start-group Release/obj.target/module/src/module.o Release/obj.target/module/src/vtvalidate.o -Wl,--end-group 

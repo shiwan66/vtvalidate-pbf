@@ -1,0 +1,1 @@
+/home/tmp/vtvalidate/mason_packages/headers/vtzero/1.0.0/include/vtzero/version.hpp

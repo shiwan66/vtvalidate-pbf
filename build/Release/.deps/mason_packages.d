@@ -1,0 +1,1 @@
+cmd_mason_packages := LD_LIBRARY_PATH=/home/tmp/vtvalidate/build/Release/lib.host:/home/tmp/vtvalidate/build/Release/lib.target:$$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../.; mkdir -p .; ./scripts/install_deps.sh

@@ -1,0 +1,5 @@
+cmd_Release/obj.target/module/src/module.o := g++ '-DNODE_GYP_MODULE_NAME=module' '-DUSING_UV_SHARED=1' '-DUSING_V8_SHARED=1' '-DV8_DEPRECATION_WARNINGS=1' '-D_LARGEFILE_SOURCE' '-D_FILE_OFFSET_BITS=64' '-DBUILDING_NODE_EXTENSION' '-DNDEBUG' -I/home/ubuntu/.node-gyp/8.11.2/include/node -I/home/ubuntu/.node-gyp/8.11.2/src -I/home/ubuntu/.node-gyp/8.11.2/deps/uv/include -I/home/ubuntu/.node-gyp/8.11.2/deps/v8/include  -fPIC -pthread -Wall -Wextra -Wno-unused-parameter -m64 -O3 -fno-omit-frame-pointer -std=c++11 -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -D_GLIBCXX_USE_CXX11_ABI=0 -isystem /home/tmp/vtvalidate/node_modules/nan -isystem /home/tmp/vtvalidate/mason_packages/.link/include/ -Wall -Wextra -Weffc++ -Wconversion -pedantic-errors -Wconversion -Wshadow -Wfloat-equal -Wuninitialized -Wunreachable-code -Wold-style-cast -Wno-error=unused-variable -Wno-error=deprecated-declarations -Werror -MMD -MF ./Release/.deps/Release/obj.target/module/src/module.o.d.raw   -c -o Release/obj.target/module/src/module.o ../src/module.cpp
+Release/obj.target/module/src/module.o: ../src/module.cpp \
+ ../src/vtvalidate.hpp
+../src/module.cpp:
+../src/vtvalidate.hpp:
